@@ -1,5 +1,6 @@
-## Introduction 
-* Best Practice of Fronted.
+## Introduction
+
+- Best Practice of Fronted.
 
 ## Getting Started
 

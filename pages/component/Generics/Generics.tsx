@@ -23,9 +23,6 @@ const DEFAULT_DATA: IDataType[] = [
   },
 ];
 
-
-
-
 interface IGenericsListProps<T> {
   data: T[];
   getKey: (data: T) => number;
@@ -35,7 +32,7 @@ interface IGenericsListProps<T> {
 /**
  *  泛型开发的主要场景:
  *  1、封装通用组件.  List 遍历组件.
- *  2、
+ *  2、https://cloud.tencent.com/developer/article/1935163  代码重用泛型.
  * **/
 
 const GenericsList = <T extends unknown>({
